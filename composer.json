@@ -1,0 +1,36 @@
+{
+    "name": "insenseanalytics/nova-server-monitor",
+    "description": "A Laravel Nova tool for Spatie's Server Monitor library.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paras Malhotra",
+            "email": "paras@insenseanalytics.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "spatie/laravel-server-monitor": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Insenseanalytics\\NovaServerMonitor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Insenseanalytics\\NovaServerMonitor\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

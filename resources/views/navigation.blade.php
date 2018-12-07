@@ -1,0 +1,8 @@
+<router-link tag="h3" :to="{name: 'nova-server-monitor'}" class="cursor-pointer flex items-center font-normal dim text-white mb-6 text-base no-underline">
+    <svg class="sidebar-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+        <path d="M7 17H2a2 2 0 0 1-2-2V2C0 .9.9 0 2 0h16a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2h-5l4 2v1H3v-1l4-2zM2 2v11h16V2H2z" fill="var(--sidebar-icon)" fill-rule="evenodd"/>
+    </svg>
+    <span class="sidebar-label">
+        {{ __("Server Monitor") }}
+    </span>
+</router-link>
