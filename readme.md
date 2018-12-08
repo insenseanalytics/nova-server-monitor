@@ -6,6 +6,8 @@
 
 This [Nova](https://nova.laravel.com) tool allows you to monitor server health checks such as database, redis, diskspace, elasticsearch, etc. It depends on the [Spatie Server Monitor library](https://github.com/spatie/laravel-server-monitor).
 
+<img alt="screenshot of the backup tool" src="https://s3.ap-south-1.amazonaws.com/insense-assets/nova-server-monitor.png" />
+
 ## Quick Installation
 You can install this tool into a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
