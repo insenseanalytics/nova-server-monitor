@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "spatie/laravel-server-monitor": "^1.0|^1.9"
+        "spatie/laravel-server-monitor": "^1.0|^1.9.2"
     },
     "autoload": {
         "psr-4": {
